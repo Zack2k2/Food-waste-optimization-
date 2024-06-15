@@ -1,0 +1,332 @@
+[
+  {
+    "foodid": 1,
+    "dist_name": "Pizza Margherita",
+    "ingredients": [
+      "flour",
+      "water",
+      "yeast",
+      "tomato sauce",
+      "mozzarella cheese",
+      "basil"
+    ],
+    "isexpired": false,
+    "difficulty_cooking": 4,
+    "author_cookie": "a1a1a1",
+    "quality": 9,
+    "expiration_date": "2024-06-25",
+    "quantity": 5,
+    "storage_location": "Freezer",
+    "rate": [
+      4,
+      3,
+      4
+    ],
+    "comments": [
+      {
+        "author_name": "Zohaib",
+        "comment": "its taste so good."
+      },
+      {
+        "author_name": "\"pencil\"",
+        "comment": "This is a test comment."
+      }
+    ]
+  },
+  {
+    "foodid": 2,
+    "dist_name": "Chicken Shawarma",
+    "isexpired": false,
+    "ingredients": [
+      "chicken",
+      "garlic",
+      "yogurt",
+      "lemon juice",
+      "tahini",
+      "pita bread"
+    ],
+    "difficulty_cooking": 5,
+    "quality": 9,
+    "expiration_date": "2024-06-14",
+    "quantity": 8,
+    "storage_location": "Refrigerator",
+    "rate": [
+      5,
+      2,
+      3
+    ],
+    "comments": []
+  },
+  {
+    "foodid": 3,
+    "dist_name": "Chocolate Cake",
+    "isexpired": false,
+    "ingredients": [
+      "flour",
+      "sugar",
+      "cocoa powder",
+      "baking powder",
+      "eggs",
+      "milk",
+      "butter"
+    ],
+    "difficulty_cooking": 4,
+    "quality": 10,
+    "expiration_date": "2024-06-01",
+    "quantity": 3,
+    "storage_location": "Refrigerator",
+    "rate": [
+      3,
+      5
+    ],
+    "comments": []
+  },
+  {
+    "foodid": 4,
+    "isexpired": false,
+    "dist_name": "Pepperoni Pizza",
+    "ingredients": [
+      "flour",
+      "water",
+      "yeast",
+      "tomato sauce",
+      "mozzarella cheese",
+      "pepperoni"
+    ],
+    "difficulty_cooking": 4,
+    "quality": 9,
+    "expiration_date": "2024-06-25",
+    "author_cookie": "a1a1a1",
+    "quantity": 5,
+    "storage_location": "Freezer",
+    "rate": [
+      3,
+      3
+    ],
+    "comments": []
+  },
+  {
+    "foodid": 5,
+    "dist_name": "Falafel Sandwich",
+    "author_cookie": "a1a1a1",
+    "isexpired": false,
+    "ingredients": [
+      "chickpeas",
+      "onion",
+      "garlic",
+      "parsley",
+      "cumin",
+      "coriander",
+      "pita bread"
+    ],
+    "difficulty_cooking": 3,
+    "quality": 8,
+    "expiration_date": "2024-06-12",
+    "quantity": 10,
+    "storage_location": "Refrigerator",
+    "rate": [
+      1,
+      4
+    ],
+    "comments": []
+  },
+  {
+    "foodid": 6,
+    "dist_name": "Vanilla Cake",
+    "author_cookie": "a1a1a1",
+    "isexpired": true,
+    "ingredients": [
+      "flour",
+      "sugar",
+      "baking powder",
+      "eggs",
+      "milk",
+      "butter",
+      "vanilla extract"
+    ],
+    "difficulty_cooking": 4,
+    "quality": 10,
+    "expiration_date": "2024-06-01",
+    "quantity": 3,
+    "storage_location": "Refrigerator",
+    "rate": [],
+    "comments": []
+  },
+  {
+    "foodid":7,
+    "dist_name": "Tuna Sandwich",
+    "author_cookie": "a1a1a1",
+    "isexpired": false,
+    "ingredients": [
+      "bread",
+      "tuna",
+      "mayonnaise",
+      "celery",
+      "onion",
+      "lettuce"
+    ],
+    "difficulty_cooking": 2,
+    "quality": 8,
+    "expiration_date": "2024-06-22",
+    "quantity": 12,
+    "storage_location": "Refrigerator",
+    "rate": [],
+    "comments": []
+  },
+  {
+    "foodid": 8,
+    "author_cookie": "a1a1a1",
+    "isexpired": false,
+    "dist_name": "Vegetable Pizza",
+    "ingredients": [
+      "flour",
+      "water",
+      "yeast",
+      "tomato sauce",
+      "mozzarella cheese",
+      "bell peppers",
+      "onions",
+      "olives"
+    ],
+    "difficulty_cooking": 4,
+    "quality": 9,
+    "expiration_date": "2024-06-13",
+    "quantity": 5,
+    "storage_location": "Freezer",
+    "rate": [],
+    "comments": [
+      {
+        "author_name": "\"Satrun\"",
+        "comment": "hey, i loved your work."
+      },
+      {
+        "author_name": "\"Satrun\"",
+        "comment": "hey, i loved your work."
+      },
+      {
+        "author_name": "\"Satrun\"",
+        "comment": "another great food for health"
+      }
+    ]
+  },
+  {
+    "foodid": 9,
+    "isexpired": false,
+    "dist_name": "Beef Shawarma",
+    "author_cookie": "a1a1a1",
+    "ingredients": [
+      "beef",
+      "garlic",
+      "yogurt",
+      "lemon juice",
+      "tahini",
+      "pita bread"
+    ],
+    "difficulty_cooking": 5,
+    "quality": 9,
+    "expiration_date": "2024-06-14",
+    "quantity": 8,
+    "storage_location": "Refrigerator",
+    "rate": [],
+    "comments": [
+      {
+        "author_name": "\"Satrun\"",
+        "comment": "hey, i loved your work."
+      },
+      {
+        "author_name": "\"Satrun\"",
+        "comment": "hey, i loved your work."
+      },
+      {
+        "author_name": "\"Satrun\"",
+        "comment": "another great food for health"
+      }
+    ]
+  },
+  {
+    "foodid": 10,
+    "author_cookie": "a1a1a1",
+    "dist_name": "Greek Salad",
+    "isexpired": true,
+    "ingredients": [
+      "cucumber",
+      "tomato",
+      "feta cheese",
+      "red onion",
+      "olives",
+      "olive oil"
+    ],
+    "difficulty_cooking": 2,
+    "quality": 9,
+    "expiration_date": "2024-06-09",
+    "quantity": 7,
+    "storage_location": "Refrigerator",
+    "rate": [],
+    "comments": [
+      {
+        "author_name": "\"Madiha khan\"",
+        "comment": "Great salad!"
+      },
+      {
+        "author_name": "\"Satrun\"",
+        "comment": "Great salad!"
+      }
+    ]
+  },
+  {
+    "foodid": 11,
+    "isexpired": false,
+    "dist_name": "coffee",
+    "author_cookie": "a1a1a1",
+    "ingredients": [
+      "milk",
+      "caffine",
+      "water",
+      "suger"
+    ],
+    "difficulty_cooking": 1,
+    "quality": 5,
+    "expiration_date": "2024-04-27",
+    "quantity": 3,
+    "storage_location": "Refrigerator",
+    "rate": [],
+    "average_rate": 0,
+    "comments": []
+  },
+  {
+    "foodid": 12,
+    "dist_name": "Pizza Faghita",
+    "ingredients": [
+      "Onions",
+      "Tomato Sauce",
+      "Pizza Dough",
+      "Chicken",
+      "Fajita Seasoning"
+    ],
+    "difficulty_cooking": 4,
+    "quality": 1,
+    "expiration_date": "2024-06-15",
+    "quantity": 1,
+    "storage_location": "Cupboards",
+    "rate": [],
+    "comments":[],
+    "average_rate": 0
+  },
+  
+  {
+    "foodid": 13,
+    "dist_name": "Sandwitch",
+    "ingredients": [
+      "eggs",
+      "bread"
+    ],
+    "difficulty_cooking": 1,
+    "quality": 5,
+    "expiration_date": "2024-06-15",
+    "quantity": 1,
+    "storage_location": "Freezer",
+    "rate": [],
+    "comments":[],
+    "average_rate": 0
+  }
+]

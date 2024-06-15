@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+         /* CSS styles for profile page */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #ffcc99, #ff9966);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header {
+            background-color: rgba(255, 126, 95, 0.9);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .nav {
+            display: flex;
+        }
+        .nav a {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: #ffd1a9;
+        }
+
+        .profile-info {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-info p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .profile-info p span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Add some hover effect */
+        .profile-info p:hover {
+            color: #ff6347; /* Tomato color */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="/">Food Optimization</a>
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/profile">Profile</a>
+            <a href="/about">About</a>
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+            
+        </div>
+    </div>
+    <div class="container">
+        <h1>User Profile</h1>
+        <div class="profile-info">
+            <p>Name: <%= user.name%></p>
+            <p>Age: <%= user.age %></p>
+            <p>Weight: <%= user.weight %> </p>
+            <p>Allergies:
+                <ul>
+                    <% user.allergies.forEach(function(allergy) { %>
+                        <li><%= allergy %></li>
+                    <% }); %>
+                </ul>
+            </p>
+            <!-- Add more profile information here -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+[
+  {
+    "001": {
+      "username": "admin",
+      "password": "admin",
+      "cookie": "a1a1a1",
+      "name": "Madiha khan",
+      "age": 19,
+      "weight": 72,
+      "allergies": []
+    }
+  },
+  {
+    "002": {
+      "username": "zohaib",
+      "password": "darkmatter",
+      "cookie": "a1a1a2",
+      "name": "Zohaib Zafar",
+      "age": 21,
+      "weight": 85,
+      "allergies": [
+        "fish",
+        "soy"
+      ]
+    }
+  },
+  {
+    "003": {
+      "username": "naz",
+      "password": "password",
+      "name": "Nazneen Zafar",
+      "cookie": "b2b2b2",
+      "age": 30,
+      "weight": 85,
+      "allergies": [
+        "soy"
+      ]
+    }
+  },
+  {
+    "004": {
+      "username": "zed",
+      "password": "fed",
+      "cookie": "v2b2b2",
+      "name": "Wojack",
+      "age": 30,
+      "weight": 85,
+      "allergies": [
+        "soy"
+      ]
+    }
+  },
+  {
+    "005": {
+      "username": "laiba",
+      "password": "laiba",
+      "cookie": "l1l2k2",
+      "name": "laiba",
+      "age": 17,
+      "weight": 67,
+      "allergies": [
+        "milk"
+      ]
+    }
+  },
+  {
+    "006": {
+      "username": "cosmicskeptic",
+      "password": "butter",
+      "cookie": "30hw8hjihtj",
+      "name": "alex o conor",
+      "age": "20",
+      "weight": "78",
+      "allergies": [
+        "soy",
+        "fish"
+      ]
+    }
+  },
+  {
+    "007": {
+      "username": "zahid2k",
+      "password": "ihate",
+      "cookie": "gnrp26gqdvp",
+      "name": "Zahid Azhar",
+      "age": "30",
+      "weight": "99",
+      "allergies": [
+        "milk"
+      ]
+    }
+  },
+  {
+    "008": {
+      "username": "a2",
+      "password": "pakistan",
+      "cookie": "axpfj7a68d",
+      "name": "afsheen",
+      "age": "30",
+      "weight": "78",
+      "allergies": [
+        "soy"
+      ]
+    }
+  },
+  {
+    "009": {
+      "username": "Satrun",
+      "password": "system",
+      "cookie": "fzhlogccl4b",
+      "name": "Satrun",
+      "age": "20",
+      "weight": "85",
+      "allergies": [
+        "eggs"
+      ]
+    }
+  },
+  {
+    "010": {
+      "username": "pencil12",
+      "password": "password",
+      "cookie": "bxri0jerjzm",
+      "name": "pencil",
+      "age": "24",
+      "weight": "84",
+      "allergies": [
+        null
+      ]
+    }
+  },
+  {
+    "011": {
+      "username": "pencil12",
+      "password": "password",
+      "cookie": "emm5cdcbrdl",
+      "name": "pencil",
+      "age": "24",
+      "weight": "84",
+      "allergies": [
+        "soy",
+        "milk"
+      ]
+    }
+  },
+  {
+    "012": {
+      "username": "pencil12",
+      "password": "password",
+      "cookie": "bvv4hlyysmh",
+      "name": "pencil",
+      "age": "24",
+      "weight": "84",
+      "allergies": [
+        "soy",
+        "milk"
+      ]
+    }
+  },
+  {
+    "013": {
+      "username": "pencil12",
+      "password": "password",
+      "cookie": "7f23xjz7d44",
+      "name": "pencil",
+      "age": "24",
+      "weight": "84",
+      "allergies": [
+        "soy",
+        "milk"
+      ]
+    }
+  }
+]

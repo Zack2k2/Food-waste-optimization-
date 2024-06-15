@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= dish.dist_name %></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #56ccf2, #34e70c);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            text-align: center;
+            color: #2f80ed;
+            margin-bottom: 20px;
+        }
+        .ingredients, .comments {
+            margin-top: 20px;
+        }
+        .comment-form {
+            margin-top: 20px;
+        }
+        .comment-form input, .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .comment-form button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+        .comment-form button:hover {
+            background-color: #218838;
+        }
+        .comment {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .comment-author {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><%= dish.dist_name %></h1>
+
+        <p><strong>Difficulty:</strong> <%= dish.difficulty_cooking %></p>
+        <p><strong>Quality:</strong> <%= dish.quality %></p>
+        <p><strong>Expiration Date:</strong> <%= dish.expiration_date %></p>
+        <p><strong>Quantity:</strong> <%= dish.quantity %></p>
+        <p><strong>Storage Location:</strong> <%= dish.storage_location %></p>
+
+        <div class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <% dish.ingredients.forEach(ingredient => { %>
+                    <li><%= ingredient %></li>
+                <% }) %>
+            </ul>
+        </div>
+
+        <div class="comments">
+            <h2>Comments</h2>
+            <% if (dish.comments.length > 0) { %>
+                <% dish.comments.forEach(comment => { %>
+                    <div class="comment">
+                        <p class="comment-author"><%= comment.author_name %>:</p>
+                        <p><%= comment.comment %></p>
+                    </div>
+                <% }) %>
+            <% } else { %>
+                <p>No comments yet.</p>
+            <% } %>
+        </div>
+
+        <div class="comment-form">
+            <form action="/foods/dish/<%= dish.foodid %>/comment" method="POST">
+                <!-- <input type="text" name="author_name" placeholder="Your name" required />  -->
+                <textarea name="comment" rows="4" placeholder="Add your comment here..." required></textarea>
+                <button type="submit">Submit Comment</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
